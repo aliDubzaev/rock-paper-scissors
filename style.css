@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1250px;
+  height: 500px;
+  gap: 20px;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  background: 0;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+  border-color: orange;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: yellow;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
